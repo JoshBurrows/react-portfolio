@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.a9c88429.css",
-    "main.js": "/react-portfolio/static/js/main.cd2c53b7.js",
-    "static/media/lotto-tickets.png": "/react-portfolio/static/media/lotto-tickets.19e4c48f364c122ebb06.png",
-    "static/media/my-merch.png": "/react-portfolio/static/media/my-merch.920e2fd9119d507d9d66.png",
-    "static/media/color-gen.png": "/react-portfolio/static/media/color-gen.59649a18cf33f22b9c79.png",
-    "index.html": "/react-portfolio/index.html",
-    "main.a9c88429.css.map": "/react-portfolio/static/css/main.a9c88429.css.map",
-    "main.cd2c53b7.js.map": "/react-portfolio/static/js/main.cd2c53b7.js.map"
+    "main.css": "/static/css/main.a9c88429.css",
+    "main.js": "/static/js/main.1f14ebe6.js",
+    "static/media/lotto-tickets.png": "/static/media/lotto-tickets.19e4c48f364c122ebb06.png",
+    "static/media/my-merch.png": "/static/media/my-merch.920e2fd9119d507d9d66.png",
+    "static/media/color-gen.png": "/static/media/color-gen.59649a18cf33f22b9c79.png",
+    "index.html": "/index.html",
+    "main.a9c88429.css.map": "/static/css/main.a9c88429.css.map",
+    "main.1f14ebe6.js.map": "/static/js/main.1f14ebe6.js.map"
   },
   "entrypoints": [
     "static/css/main.a9c88429.css",
-    "static/js/main.cd2c53b7.js"
+    "static/js/main.1f14ebe6.js"
   ]
 }
