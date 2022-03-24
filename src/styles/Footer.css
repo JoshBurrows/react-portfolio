@@ -1,0 +1,8 @@
+.iconContainer > a {
+  font-size: 2.5em;
+  color: rgb(150, 150, 150);
+}
+
+a {
+  text-decoration: none;
+}

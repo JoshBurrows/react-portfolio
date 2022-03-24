@@ -1,0 +1,12 @@
+.myCard {
+  width: 360px;
+  margin-bottom: 1.5em;
+  color: black;
+}
+
+.myCard > a {
+  z-index: 20;
+  text-decoration: none;
+  text-align: center;
+  width: 360px;
+}
