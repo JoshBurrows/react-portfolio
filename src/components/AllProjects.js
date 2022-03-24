@@ -1,5 +1,5 @@
 import { Container } from "react-bootstrap";
-import Navbar from "./Navbar";
+import Navigation from "./Navbar";
 import "../styles/AllProjects.css";
 import QuoteGen from "./ProjectQuoteGen";
 import LottoPicker from "./projectLotto";
@@ -10,7 +10,7 @@ import Footer from "./Footer";
 export default function AllProjects() {
   return (
     <>
-      <Navbar />
+      <Navigation />
       <Container className="mt-5 text-light pt-5">
         <h1 className="text-center">&#171;Projects&#187;</h1>
         <p className="text-center">

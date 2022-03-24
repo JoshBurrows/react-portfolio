@@ -1,4 +1,4 @@
-import Navbar from "./Navbar";
+import Navigation from "./Navbar";
 import Footer from "./Footer";
 import { Accordion } from "react-bootstrap";
 import "../styles/About.css";
@@ -10,7 +10,7 @@ export default function About(props) {
   };
   return (
     <>
-      <Navbar />
+      <Navigation />
       <section className="text-light d-flex align-items-center justify-content-center container-fluid">
         <div className="abtMeContainer container">
           <h1>About Me</h1>

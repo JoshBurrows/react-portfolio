@@ -1,5 +1,5 @@
 import Footer from "./Footer";
-import Navbar from "./Navbar";
+import Navigation from "./Navbar";
 import "../styles/Contact.css";
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
@@ -41,7 +41,7 @@ export default function Contact() {
   };
   return (
     <>
-      <Navbar />
+      <Navigation />
       <div className="container pt-5 d-flex align-items-center justify-content-center ">
         <form className="myForm mt-5 p-3 bg-secondary rounded">
           <h2 className=" text-dark text-center">Email me</h2>
