@@ -6,12 +6,12 @@ import Contact from "./components/Contact";
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route exact path="/" element={<Introduction />} />
-        <Route path="/react-portfolio/about" element={<About />} />
-        <Route path="/react-portfolio/projects" element={<AllProjects />} />
-        <Route path="/react-portfolio/contact" element={<Contact />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/projects" element={<AllProjects />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </Router>
   );
