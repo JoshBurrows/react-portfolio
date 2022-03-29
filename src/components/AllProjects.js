@@ -6,6 +6,7 @@ import LottoPicker from "./projectLotto";
 import ECommerce from "./ProjectEComm";
 import ColorGen from "./ProjectColorGen";
 import Footer from "./Footer";
+import Calc from "./ProjectCalc";
 
 export default function AllProjects() {
   return (
@@ -24,6 +25,7 @@ export default function AllProjects() {
         <QuoteGen />
         <LottoPicker />
         <ECommerce />
+        <Calc />
         <ColorGen />
       </Container>
       <Footer />
