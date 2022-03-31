@@ -7,26 +7,34 @@ import ECommerce from "./ProjectEComm";
 import ColorGen from "./ProjectColorGen";
 import Footer from "./Footer";
 import Calc from "./ProjectCalc";
+import "animate.css";
 
 export default function AllProjects() {
   return (
-    <section>
+    <>
       <Navigation />
-      <Container className="text-dark">
-        <h1 className="text-center">Projects</h1>
-        <p className="text-center">
-          <small>This website you're viewing was made with React</small>
+      <section className="allProjectsSection">
+        <h1 className="projectHeader animate__animated animate__fadeInDown">
+          Projects
+        </h1>
+        <p className="projectHeaderText">
+          This website you're viewing was made with React and a few npm
+          libraries. It uses bootstrap for some styling, as well as, custom css.
+          Emailjs handles the contact form, AnimateCSS handles the animations.
+          It's using React-Router-Dom to route you to the different pages, and
+          React-icons gives us..well..the icons. Deployment is done utilizing
+          GH-pages.
         </p>
-      </Container>
 
-      <Container className="myContainer my-5 d-flex bg-secondary rounded py-5 flex-wrap justify-content-evenly">
-        <QuoteGen />
-        <LottoPicker />
-        <ECommerce />
-        <Calc />
-        <ColorGen />
-      </Container>
+        <Container className="all-projects-container rounded d-flex flex-wrap justify-content-evenly">
+          <QuoteGen />
+          <LottoPicker />
+          <ECommerce />
+          <Calc />
+          <ColorGen />
+        </Container>
+      </section>
       <Footer />
-    </section>
+    </>
   );
 }

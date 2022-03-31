@@ -6,10 +6,12 @@ footer {
 }
 footer a {
   text-decoration: none;
+  color: #3b06fa;
 }
 
 .footer-links > a {
   width: 100px;
+  background-color: #3b06fa;
 }
 
 .footer-phone > p {

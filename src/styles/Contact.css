@@ -1,11 +1,30 @@
-.myFormContainer {
-  width: 100%;
-  height: 100vh;
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@1,300&family=Oswald:wght@500&display=swap');
+
+.formContainer {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
+  font-family: 'Oswald',
+  sans-serif;
+}
+
+.formContainer > p{
+  letter-spacing: .1em;
+  font-size: small;
+  width: 100%;
 }
 
 .myForm {
-  width: 35em !important;
+  background-color: #3b06fa49;
+  padding: 1.3em;
+  width: 70%;
+  margin: 5em 0;
+}
+
+
+.myFormBtn{
+  font-weight: bolder;
+  font-size: 1.5em;
+  width: 100%;
 }

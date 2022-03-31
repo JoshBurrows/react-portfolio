@@ -25,13 +25,13 @@ export default function Navigation() {
       </Container>
 
       <Nav className="btnContainer">
-        <Nav.Link className="btn bg-info text-white" onClick={handleProjects}>
+        <Nav.Link className="navBtn text-white" onClick={handleProjects}>
           Projects
         </Nav.Link>
-        <Nav.Link className="btn bg-info text-white" onClick={handleContact}>
+        <Nav.Link className="navBtn text-white" onClick={handleContact}>
           Contact
         </Nav.Link>
-        <Nav.Link className="btn bg-info text-white" onClick={handleAbout}>
+        <Nav.Link className="navBtn text-white" onClick={handleAbout}>
           About Me
         </Nav.Link>
       </Nav>

@@ -9,13 +9,11 @@ import {
 
 export default function Footer() {
   return (
-    <footer className="row bg-dark opacity-75">
+    <footer className="row opacity-75">
       <div className="col-md-4">
         <div className="footer-left container pl-2 pt-2">
           <h5>
-            <a className="text-info" href="/">
-              Josh Burrows <span>Web Developer</span>
-            </a>
+            <a href="/">Josh Burrows Web Developer</a>
           </h5>
           <p>You can see more at GitHub & LinkedIn or contact me via e-mail</p>
         </div>
@@ -23,7 +21,7 @@ export default function Footer() {
       <div className="col-md-4 text-center">
         <div className="footer-links d-flex pt-2 justify-content-around">
           <a
-            className="text-white bg-info rounded p-2"
+            className="text-white rounded p-2"
             href="https://github.com/JoshBurrows"
           >
             <FaGithubSquare />
@@ -31,14 +29,14 @@ export default function Footer() {
             <small>GitHub</small>
           </a>
           <a
-            className="text-white bg-info rounded p-2"
+            className="text-white rounded p-2"
             href="https://www.linkedin.com/in/jburrowsdev"
           >
             <FaLinkedinIn />
             <br />
             <small>LinkedIn</small>
           </a>
-          <a className="text-white bg-info rounded p-2" href="/contact">
+          <a className="text-white rounded p-2" href="/contact">
             <FaMailBulk />
             <br />
             <small>Email</small>
@@ -58,9 +56,7 @@ export default function Footer() {
       </div>
       <div className="text-center pb-1">
         © 2020 Copyright:
-        <a className="text-info" href="https://www.joshuaburrows.com">
-          http://www.joshuaburrows.com
-        </a>
+        <a href="https://www.joshuaburrows.com">http://www.joshuaburrows.com</a>
       </div>
     </footer>
   );

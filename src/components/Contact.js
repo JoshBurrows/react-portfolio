@@ -30,9 +30,7 @@ export default function Contact() {
 
       setName("");
       setEmail("");
-      setMessage(
-        "Your message was sent! If you'd like to send another just replace this text with your new message, otherwise use the menu to navigate."
-      );
+      setMessage("Thanks! Your message was sent.");
       setEmailSent(true);
       console.log(emailSent);
     } else {
@@ -42,50 +40,48 @@ export default function Contact() {
   return (
     <>
       <Navigation />
-      <div className="container pt-5 d-flex align-items-center justify-content-center ">
-        <form className="myForm mt-5 p-3 bg-secondary rounded">
-          <h2 className=" text-dark text-center">Email me</h2>
-          <p className="text-dark text-center">I want to talk to you.</p>
-          <div className="mb-3">
-            <input
-              className="form-control"
-              type="text"
-              name="name"
-              placeholder="Name"
-              value={name}
-              onChange={(e) => setName(e.target.value)}
-            />
-          </div>
-          <div className="mb-3">
-            <input
-              className="form-control is-invalid"
-              type="email"
-              name="email"
-              placeholder="Email"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-            />
-          </div>
-          <div className="mb-3">
-            <textarea
-              className="form-control"
-              name="message"
-              placeholder="Message"
-              rows="14"
-              value={message}
-              onChange={(e) => setMessage(e.target.value)}
-            ></textarea>
-          </div>
-          <div className="mb-3">
-            <button className="btn btn-primary" onClick={submit}>
-              send
-            </button>
-          </div>
+      <section className="formContainer">
+        <h1 className="projectHeader animate__animated animate__fadeInDown">
+          Contact
+        </h1>
+        <p className="text-light px-4">
+          I will not save your email address or information.
+        </p>
+        <form className="myForm rounded">
+          <h2 className="pb-3 text-light text-center">Send email</h2>
+          <input
+            className="form-control"
+            type="text"
+            name="name"
+            placeholder="Name"
+            value={name}
+            onChange={(e) => setName(e.target.value)}
+          />
+
+          <input
+            className="mt-2 form-control is-invalid"
+            type="email"
+            name="email"
+            placeholder="Email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+          />
+
+          <textarea
+            className="my-2 form-control"
+            name="message"
+            placeholder="Message"
+            rows="14"
+            value={message}
+            onChange={(e) => setMessage(e.target.value)}
+          ></textarea>
+
+          <button className=" myBtn myFormBtn" onClick={submit}>
+            Send
+          </button>
         </form>
-      </div>
-      <div className="mt-5">
-        <Footer />
-      </div>
+      </section>
+      <Footer />
     </>
   );
 }

@@ -3,6 +3,7 @@
 .introSection{
   background-color: #0d0138;
   height: 100vh;
+  
 }
 
 .intro-card{
@@ -11,13 +12,13 @@
   font-family: 'Oswald',
   sans-serif;
   font-size: large;
-  /* margin-left: 4em; */
+  letter-spacing: .1em;
 }
 
 .intro-card-text > h1 > span {
   font-weight: bolder;
-  font-family: 'Averia Serif Libre',
-  cursive;
+  font-family: 'Averia Serif Libre', cursive;
+  font-size: 1.8em;
   color: #3b06fa;
   display: block;
   border-radius: 0.3em;
@@ -36,6 +37,7 @@
   transition: all 150ms ease-in-out;
   color: white;
   margin: 20px 0px;
+  letter-spacing: .1em;
 }
 .myBtn:hover {
   box-shadow: 0 0 10px 0 #3b06fa inset, 0 0 10px 4px #3b06fa;
@@ -43,16 +45,17 @@
 }
 
 .intro-img{
- width: 275px;
+ width: 20em;
  padding: 15px 0;
  border-radius: 1em;
  text-align: center;
- background-color: #3b06faab;
+ background-color: #3b06fa33;
  margin-bottom: 25px;
 }
  
 .intro-img > img{
-  width: 250px;
+  width: 15em;
   border-radius: 1em;
+  padding: 15px 0;
   opacity: .8;
 }
