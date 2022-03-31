@@ -1,5 +1,6 @@
 import { Navbar, Nav, Container } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
+import "../styles/Navbar.css";
 
 export default function Navigation() {
   const navigate = useNavigate();
@@ -16,17 +17,24 @@ export default function Navigation() {
     navigate("/about");
   };
   return (
-    <Navbar bg="dark" fixed="top" variant="dark">
+    <Navbar className="navBar" fixed="top">
       <Container>
         <Navbar.Brand href="/">
           <img alt="logo" src={require("../images/favicon-32x32.png")} />
         </Navbar.Brand>
-        <Nav className="me-auto">
-          <Nav.Link onClick={handleProjects}>Projects</Nav.Link>
-          <Nav.Link onClick={handleContact}>Contact</Nav.Link>
-          <Nav.Link onClick={handleAbout}>About Me</Nav.Link>
-        </Nav>
       </Container>
+
+      <Nav className="btnContainer">
+        <Nav.Link className="btn bg-info text-white" onClick={handleProjects}>
+          Projects
+        </Nav.Link>
+        <Nav.Link className="btn bg-info text-white" onClick={handleContact}>
+          Contact
+        </Nav.Link>
+        <Nav.Link className="btn bg-info text-white" onClick={handleAbout}>
+          About Me
+        </Nav.Link>
+      </Nav>
     </Navbar>
   );
 }

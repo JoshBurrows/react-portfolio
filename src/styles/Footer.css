@@ -1,8 +1,25 @@
-.iconContainer > a {
-  font-size: 2.5em;
-  color: rgb(150, 150, 150);
+footer {
+  color: rgb(133, 131, 130);
+  font-size: 1.1em;
+  width: 100%;
+  margin: 0 !important;
+}
+footer a {
+  text-decoration: none;
 }
 
-a {
-  text-decoration: none;
+.footer-links > a {
+  width: 100px;
+}
+
+.footer-phone > p {
+  margin: 0 0;
+  box-sizing: border-box;
+  padding-left: 0.7em;
+}
+
+.footer-location > p {
+  box-sizing: border-box;
+  margin: 0;
+  padding-left: 0.7em;
 }

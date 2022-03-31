@@ -1,6 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import "../styles/Introduction.css";
-
+import "animate.css";
+import vector from "../images/vector-artwork.jpg";
 export default function Introduction() {
   const navigate = useNavigate();
   const handleClick = (e) => {
@@ -8,14 +9,29 @@ export default function Introduction() {
     navigate("/projects");
   };
   return (
-    <section className="text-light vh-100 d-flex align-items-center justify-content-center">
-      <div className="container p-5">
-        <h1>Hello, Im Josh Burrows</h1>
-        <p>I have a passion for learning, and developing new things</p>
-        <button onClick={handleClick} className="my-5 myBtn">
-          <strong>My Work</strong>
-        </button>
-      </div>
-    </section>
+    <>
+      <section className="introSection d-flex align-items-center justify-content-evenly flex-wrap">
+        <div className="intro-card animate__animated animate__backInDown">
+          <div className="intro-card-text">
+            <h1 className="animate__animated animate__backInRight">
+              Hello, Im <hr />
+              <span>Josh Burrows</span>
+            </h1>
+            <p className="pt-1 animate__animated animate__backInLeft">
+              I love learning, and developing new things
+            </p>
+          </div>
+          <button
+            onClick={handleClick}
+            className="myBtn animate__animated animate__backInUp"
+          >
+            <strong>My Work</strong>
+          </button>
+        </div>
+        <div className="intro-img animate__animated animate__backInUp">
+          <img src={vector} />
+        </div>
+      </section>
+    </>
   );
 }

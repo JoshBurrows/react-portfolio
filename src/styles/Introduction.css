@@ -1,12 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@1,300&family=Oswald:wght@500&display=swap');
+
+.introSection{
+  background-color: #0d0138;
+  height: 100vh;
+}
+
+.intro-card{
+  font-weight: bold;
+  color: rgb(238, 238, 238);
+  font-family: 'Oswald',
+  sans-serif;
+  font-size: large;
+  /* margin-left: 4em; */
+}
+
+.intro-card-text > h1 > span {
+  font-weight: bolder;
+  font-family: 'Averia Serif Libre',
+  cursive;
+  color: #3b06fa;
+  display: block;
+  border-radius: 0.3em;
+}
+
+.intro-card-text > p {
+  font-weight: normal;
+  
+}
+
 .myBtn {
-  border-color: #3498db;
+  border-color: #3b06fa;
   border-radius: 5px;
   padding: 10px;
-  color: #fff;
-  box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
+  box-shadow: 40px 40px 40px 40px #3b06fa inset, 0 0 0 0 #3b06fa;
   transition: all 150ms ease-in-out;
+  color: white;
+  margin: 20px 0px;
 }
 .myBtn:hover {
-  box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
-  color: #3498db;
+  box-shadow: 0 0 10px 0 #3b06fa inset, 0 0 10px 4px #3b06fa;
+  color: #3b06fa;
+}
+
+.intro-img{
+ width: 275px;
+ padding: 15px 0;
+ border-radius: 1em;
+ text-align: center;
+ background-color: #3b06faab;
+ margin-bottom: 25px;
+}
+ 
+.intro-img > img{
+  width: 250px;
+  border-radius: 1em;
+  opacity: .8;
 }

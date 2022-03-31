@@ -10,14 +10,12 @@ import Calc from "./ProjectCalc";
 
 export default function AllProjects() {
   return (
-    <>
+    <section>
       <Navigation />
-      <Container className="mt-5 text-light pt-5">
-        <h1 className="text-center">&#171;Projects&#187;</h1>
+      <Container className="text-dark">
+        <h1 className="text-center">Projects</h1>
         <p className="text-center">
-          <small>
-            {"{"}This website you're viewing was made with React{"}"}
-          </small>
+          <small>This website you're viewing was made with React</small>
         </p>
       </Container>
 
@@ -29,6 +27,6 @@ export default function AllProjects() {
         <ColorGen />
       </Container>
       <Footer />
-    </>
+    </section>
   );
 }
