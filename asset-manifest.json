@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.a9c88429.css",
-    "main.js": "/static/js/main.91ef58f3.js",
+    "main.css": "/static/css/main.6cdacf70.css",
+    "main.js": "/static/js/main.218b30ae.js",
+    "static/media/vector-artwork.jpg": "/static/media/vector-artwork.6adaa8b88e3355dc06ea.jpg",
     "static/media/lotto-tickets.png": "/static/media/lotto-tickets.19e4c48f364c122ebb06.png",
+    "static/media/Resume2022.pdf": "/static/media/Resume2022.0747a1d60eaa5b9680df.pdf",
     "static/media/my-merch.png": "/static/media/my-merch.920e2fd9119d507d9d66.png",
     "static/media/color-gen.png": "/static/media/color-gen.59649a18cf33f22b9c79.png",
     "index.html": "/index.html",
-    "main.a9c88429.css.map": "/static/css/main.a9c88429.css.map",
-    "main.91ef58f3.js.map": "/static/js/main.91ef58f3.js.map"
+    "main.6cdacf70.css.map": "/static/css/main.6cdacf70.css.map",
+    "main.218b30ae.js.map": "/static/js/main.218b30ae.js.map"
   },
   "entrypoints": [
-    "static/css/main.a9c88429.css",
-    "static/js/main.91ef58f3.js"
+    "static/css/main.6cdacf70.css",
+    "static/js/main.218b30ae.js"
   ]
 }
