@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.6cdacf70.css",
-    "main.js": "/static/js/main.bb1b47a8.js",
+    "main.js": "/static/js/main.995ed8d8.js",
     "static/media/vector-artwork.jpg": "/static/media/vector-artwork.6adaa8b88e3355dc06ea.jpg",
     "static/media/lotto-tickets.png": "/static/media/lotto-tickets.19e4c48f364c122ebb06.png",
     "static/media/Resume2022.pdf": "/static/media/Resume2022.0747a1d60eaa5b9680df.pdf",
@@ -9,10 +9,10 @@
     "static/media/color-gen.png": "/static/media/color-gen.59649a18cf33f22b9c79.png",
     "index.html": "/index.html",
     "main.6cdacf70.css.map": "/static/css/main.6cdacf70.css.map",
-    "main.bb1b47a8.js.map": "/static/js/main.bb1b47a8.js.map"
+    "main.995ed8d8.js.map": "/static/js/main.995ed8d8.js.map"
   },
   "entrypoints": [
     "static/css/main.6cdacf70.css",
-    "static/js/main.bb1b47a8.js"
+    "static/js/main.995ed8d8.js"
   ]
 }
