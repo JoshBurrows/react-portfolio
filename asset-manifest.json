@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.6cdacf70.css",
-    "main.js": "/static/js/main.a27a05c5.js",
-    "static/media/vector-artwork.jpg": "/static/media/vector-artwork.6adaa8b88e3355dc06ea.jpg",
-    "static/media/lotto-tickets.png": "/static/media/lotto-tickets.19e4c48f364c122ebb06.png",
-    "static/media/Resume2022.pdf": "/static/media/Resume2022.0747a1d60eaa5b9680df.pdf",
-    "static/media/my-merch.png": "/static/media/my-merch.920e2fd9119d507d9d66.png",
-    "static/media/color-gen.png": "/static/media/color-gen.59649a18cf33f22b9c79.png",
-    "index.html": "/index.html",
-    "main.6cdacf70.css.map": "/static/css/main.6cdacf70.css.map",
-    "main.a27a05c5.js.map": "/static/js/main.a27a05c5.js.map"
+    "main.css": "/Markdown-Previewer/static/css/main.6cdacf70.css",
+    "main.js": "/Markdown-Previewer/static/js/main.663d2da7.js",
+    "static/media/vector-artwork.jpg": "/Markdown-Previewer/static/media/vector-artwork.6adaa8b88e3355dc06ea.jpg",
+    "static/media/lotto-tickets.png": "/Markdown-Previewer/static/media/lotto-tickets.19e4c48f364c122ebb06.png",
+    "static/media/Resume2022.pdf": "/Markdown-Previewer/static/media/Resume2022.0747a1d60eaa5b9680df.pdf",
+    "static/media/my-merch.png": "/Markdown-Previewer/static/media/my-merch.920e2fd9119d507d9d66.png",
+    "static/media/color-gen.png": "/Markdown-Previewer/static/media/color-gen.59649a18cf33f22b9c79.png",
+    "index.html": "/Markdown-Previewer/index.html",
+    "main.6cdacf70.css.map": "/Markdown-Previewer/static/css/main.6cdacf70.css.map",
+    "main.663d2da7.js.map": "/Markdown-Previewer/static/js/main.663d2da7.js.map"
   },
   "entrypoints": [
     "static/css/main.6cdacf70.css",
-    "static/js/main.a27a05c5.js"
+    "static/js/main.663d2da7.js"
   ]
 }
